@@ -7,3 +7,6 @@ setelectiontimers.sh - Sets election timers on all 3 masters
 
 Note: I intentionally set on all 3 and ignore error, as you may be in split brain
 
+## General OVN Status
+getovnvalues.sh - Get leadership, and general status
+
