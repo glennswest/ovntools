@@ -11,9 +11,8 @@ then
     echo "Less than 1 leader"
     exit
 fi
-export leaderpod=`./getnbleaderpod.sh`
-echo "Killing current master" $leaderpod
-oc delete pod/$leaderpod --force --grace-period=0
+./killnb.sh
 sleep 30
+date
 ./getnbroles.sh 
 done
