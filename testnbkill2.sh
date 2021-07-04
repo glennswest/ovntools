@@ -12,7 +12,7 @@ then
     exit
 fi
 ./kill2nb.sh
-sleep 40
+sleep 60
 date
 ./getnbroles.sh 
 done
