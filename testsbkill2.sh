@@ -12,7 +12,7 @@ then
     exit
 fi
 ./kill2sb.sh
-sleep 60
+sleep 200
 date
 ./getsbroles.sh 
 done
